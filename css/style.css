@@ -18,3 +18,91 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+/* 
+    HEADER
+*/
+
+
+header{
+    background-color: #FF6900;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+
+.header-row{
+    display: flex;        
+}
+
+.header-col-small{
+    height: 40px;
+    width: calc(100% / 4);
+    padding-top: 10px; 
+}
+
+.header-col-small2{
+    height: 40px;
+    width: calc(100% / 4);
+    padding-top: 10px;
+    text-align: right;
+}
+
+.header-col-big{
+    height: 40px;
+    width: calc(100% / 2);
+}
+
+.header-col-small nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+.header-col-small nav ul li{
+    display: inline-block;
+}
+
+.header-col-big img{
+    width: 25%;
+    margin: 0 230px;
+}
+
+.header-col-small2 i{
+    color: white;
+}
+
+
+/* 
+    MAIN
+*/
+
+.main-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-col-1{
+    background-color: lightcoral;
+    border: dashed 1px black;
+    height: 400px;
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+    FOOTER
+*/
+
+/* 
+    DEBUG
+*/
