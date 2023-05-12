@@ -213,11 +213,12 @@ footer{
 }
 
 .footer-col-2{
-    background-color: #FF6900;
-    border: dashed 1px white;
     height: 60px;
     width: 300px;
     color: white;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 30px;
 }
 
 
