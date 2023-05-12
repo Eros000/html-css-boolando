@@ -79,14 +79,15 @@ header{
 
 .main-row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main-col-1{
-    background-color: lightcoral;
     border: dashed 1px black;
-    height: 600px;
-    width: calc(100% / 3);
-    margin: 0 10px;
+    height: 610px;
+    width: calc((100% / 3));
+    padding: 0 20px;
+    
     
 }
 
@@ -139,7 +140,35 @@ header{
     width: 100%;
 }
 
+.img-section .img-2{
+    display: none;
+}
 
+.img-section:hover .img-2{
+    display: block;
+}
+
+.img-section:hover .img-1{
+    display: none;
+}
+
+
+small{
+    color: gray;
+}
+
+.text{
+    font-weight: 700;
+}
+
+.new-price{
+    color: red;
+    font-weight: 700;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
 
 
 
